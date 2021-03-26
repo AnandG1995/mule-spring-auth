@@ -17,6 +17,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	
 	<spring:security-manager>
     <spring:delegate-security-provider
+    
       name="memory-provider"
       delegate-ref="authenticationManager" />
   </spring:security-manager>
